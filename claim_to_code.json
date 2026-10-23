@@ -1,0 +1,1460 @@
+{
+  "claims": [
+    {
+      "code_present": true,
+      "details": [],
+      "family": "code",
+      "id": "C001",
+      "location": "Abstract, p. 1",
+      "missing_symbols": [],
+      "statement": "The acquisition source is a robotically acquired anterior-segment stream repurposed into a tear-film measurement.",
+      "status": "PASS",
+      "symbols": [
+        "tearfilm_persistence.streams.acquisition:AcquisitionClip"
+      ],
+      "verification": "mapping"
+    },
+    {
+      "code_present": true,
+      "details": [],
+      "family": "code",
+      "id": "C002",
+      "location": "Abstract, p. 1",
+      "missing_symbols": [],
+      "statement": "Break-up is declared only when the deformation derivative stays sign-consistent over a persistence window.",
+      "status": "PASS",
+      "symbols": [
+        "tearfilm_persistence.deformation.persistence:hard_occupancy"
+      ],
+      "verification": "mapping"
+    },
+    {
+      "code_present": true,
+      "details": [
+        "record-level repeatability requires the private cohort"
+      ],
+      "family": "value",
+      "id": "C003",
+      "location": "Abstract, p. 1",
+      "missing_symbols": [],
+      "statement": "The descriptor's coefficient of variation is 34.2% against 51.90 to 65.49% for the reference.",
+      "status": "BLOCKED",
+      "symbols": [
+        "tearfilm_persistence.descriptors.repeatability:coefficient_of_variation"
+      ],
+      "verification": "record"
+    },
+    {
+      "code_present": true,
+      "details": [
+        "record-level onset pairs require the private cohort"
+      ],
+      "family": "value",
+      "id": "C004",
+      "location": "Abstract, p. 1",
+      "missing_symbols": [],
+      "statement": "The false early rate falls from 4.4% to 0.8%.",
+      "status": "BLOCKED",
+      "symbols": [
+        "tearfilm_persistence.evaluation.properties:false_early_rate"
+      ],
+      "verification": "record"
+    },
+    {
+      "code_present": true,
+      "details": [
+        "reader-study readings are not distributed"
+      ],
+      "family": "value",
+      "id": "C005",
+      "location": "Abstract, p. 1",
+      "missing_symbols": [],
+      "statement": "Clinician review raises the AUC from 0.852 to 0.936 and cuts reading by 17.0%.",
+      "status": "BLOCKED",
+      "symbols": [
+        "tearfilm_persistence.evaluation.reader_study:orc_difference"
+      ],
+      "verification": "record"
+    },
+    {
+      "code_present": true,
+      "details": [],
+      "family": "design",
+      "id": "C006",
+      "location": "Sec. 1, p. 2",
+      "missing_symbols": [],
+      "statement": "The reference instrument carries a coefficient of repeatability larger than the clinical decision window.",
+      "status": "PASS",
+      "symbols": [
+        "tearfilm_persistence.descriptors.repeatability:COR_FACTOR"
+      ],
+      "verification": "record"
+    },
+    {
+      "code_present": true,
+      "details": [],
+      "family": "design",
+      "id": "C007",
+      "location": "Sec. 1, p. 2",
+      "missing_symbols": [],
+      "statement": "A false early break-up moves a mild case into the severe category, so the error that matters is not per-frame perception.",
+      "status": "PASS",
+      "symbols": [
+        "tearfilm_persistence.objectives.composite:decision_term"
+      ],
+      "verification": "record"
+    },
+    {
+      "code_present": true,
+      "details": [],
+      "family": "design",
+      "id": "C008",
+      "location": "Sec. 1, p. 3",
+      "missing_symbols": [],
+      "statement": "Sampling rate is a floor rather than a gradient: below it an acquisition is invalid, not degraded.",
+      "status": "PASS",
+      "symbols": [
+        "tearfilm_persistence.streams.adequacy:SAMPLING_FLOOR_HZ"
+      ],
+      "verification": "record"
+    },
+    {
+      "code_present": true,
+      "details": [
+        "site composition is a property of the private table"
+      ],
+      "family": "value",
+      "id": "C009",
+      "location": "Sec. 2.1, p. 3",
+      "missing_symbols": [],
+      "statement": "The retrospective arm covers four sites in two regions.",
+      "status": "BLOCKED",
+      "symbols": [
+        "tearfilm_persistence.cohort.manifest:CohortTable.audit"
+      ],
+      "verification": "record"
+    },
+    {
+      "code_present": true,
+      "details": [],
+      "family": "code",
+      "id": "C010",
+      "location": "Sec. 2.1, p. 3",
+      "missing_symbols": [],
+      "statement": "Acquisition adequacy is the joint sampling and fixation-stability criterion.",
+      "status": "PASS",
+      "symbols": [
+        "tearfilm_persistence.streams.adequacy:assess"
+      ],
+      "verification": "mapping"
+    },
+    {
+      "code_present": true,
+      "details": [],
+      "family": "code",
+      "id": "C011",
+      "location": "Sec. 2.2, p. 4",
+      "missing_symbols": [],
+      "statement": "The descriptor's within-subject standard deviation, coefficient of repeatability and coefficient of variation are reported before discrimination.",
+      "status": "PASS",
+      "symbols": [
+        "tearfilm_persistence.descriptors.repeatability:summarise_repeats"
+      ],
+      "verification": "mapping"
+    },
+    {
+      "code_present": true,
+      "details": [],
+      "family": "design",
+      "id": "C012",
+      "location": "Table 1, p. 4",
+      "missing_symbols": [],
+      "statement": "Repeatability is reported as 2.77 Sw.",
+      "status": "PASS",
+      "symbols": [
+        "tearfilm_persistence.descriptors.repeatability:COR_FACTOR"
+      ],
+      "verification": "record"
+    },
+    {
+      "code_present": true,
+      "details": [],
+      "family": "code",
+      "id": "C013",
+      "location": "Table 1, p. 4",
+      "missing_symbols": [],
+      "statement": "Agreement is reported with bias, limits of agreement and an intraclass correlation.",
+      "status": "PASS",
+      "symbols": [
+        "tearfilm_persistence.descriptors.repeatability:bland_altman"
+      ],
+      "verification": "mapping"
+    },
+    {
+      "code_present": true,
+      "details": [],
+      "family": "code",
+      "id": "C014",
+      "location": "Sec. 2.2, p. 4",
+      "missing_symbols": [],
+      "statement": "Descriptor variance decomposes into a between-site term, a between-session term and an intra-eye term.",
+      "status": "PASS",
+      "symbols": [
+        "tearfilm_persistence.descriptors.repeatability:variance_shares"
+      ],
+      "verification": "mapping"
+    },
+    {
+      "code_present": true,
+      "details": [
+        "figure values are derived from the private repeats"
+      ],
+      "family": "value",
+      "id": "C015",
+      "location": "Fig. 1, p. 5",
+      "missing_symbols": [],
+      "statement": "The descriptor sits between the structural instruments and the incumbent dynamic reference on the error axis.",
+      "status": "BLOCKED",
+      "symbols": [
+        "tearfilm_persistence.descriptors.repeatability:summarise_repeats"
+      ],
+      "verification": "record"
+    },
+    {
+      "code_present": true,
+      "details": [],
+      "family": "design",
+      "id": "C016",
+      "location": "Sec. 2.3, p. 5",
+      "missing_symbols": [],
+      "statement": "Discrimination is measured on a held-out multi-centre split that took no part in training.",
+      "status": "PASS",
+      "symbols": [
+        "tearfilm_persistence.cohort.manifest:SPLITS",
+        "tearfilm_persistence.runtime.loop:score_loader"
+      ],
+      "verification": "record"
+    },
+    {
+      "code_present": true,
+      "details": [
+        "parity is a property of the fitted models on the private split"
+      ],
+      "family": "value",
+      "id": "C017",
+      "location": "Sec. 2.3, p. 5",
+      "missing_symbols": [],
+      "statement": "The constrained configuration is at parity on primary utility and carries its advantage on the constraint columns.",
+      "status": "BLOCKED",
+      "symbols": [
+        "tearfilm_persistence.models.teardyn:TearDynModel"
+      ],
+      "verification": "record"
+    },
+    {
+      "code_present": true,
+      "details": [],
+      "family": "code",
+      "id": "C018",
+      "location": "Sec. 2.3, p. 5",
+      "missing_symbols": [],
+      "statement": "The frame-pair Siamese and the plain frame classifier are the two published comparators the model is measured against.",
+      "status": "PASS",
+      "symbols": [
+        "tearfilm_persistence.comparators.siamese_pair:SiamesePair",
+        "tearfilm_persistence.comparators.frame_classifier:FrameClassifier"
+      ],
+      "verification": "mapping"
+    },
+    {
+      "code_present": true,
+      "details": [],
+      "family": "design",
+      "id": "C019",
+      "location": "Sec. 2.3, p. 5",
+      "missing_symbols": [],
+      "statement": "The false early rate is the share of eyes declared at least 3 s before the reference.",
+      "status": "PASS",
+      "symbols": [
+        "tearfilm_persistence.evaluation.properties:EARLY_MARGIN_SECONDS"
+      ],
+      "verification": "record"
+    },
+    {
+      "code_present": true,
+      "details": [],
+      "family": "code",
+      "id": "C020",
+      "location": "Sec. 2.3, p. 5",
+      "missing_symbols": [],
+      "statement": "Cross-site change is the AUC change when a model trained at three sites is applied to a fourth.",
+      "status": "PASS",
+      "symbols": [
+        "tearfilm_persistence.evaluation.properties:cross_site_change"
+      ],
+      "verification": "mapping"
+    },
+    {
+      "code_present": true,
+      "details": [],
+      "family": "code",
+      "id": "C021",
+      "location": "Table 2, p. 6",
+      "missing_symbols": [],
+      "statement": "Intervals are patient-level cluster bootstraps.",
+      "status": "PASS",
+      "symbols": [
+        "tearfilm_persistence.evaluation.discrimination:cluster_bootstrap"
+      ],
+      "verification": "mapping"
+    },
+    {
+      "code_present": true,
+      "details": [],
+      "family": "design",
+      "id": "C022",
+      "location": "Table 2, p. 6",
+      "missing_symbols": [],
+      "statement": "The proposed method is a constrained configuration at parity on primary utility.",
+      "status": "PASS",
+      "symbols": [
+        "tearfilm_persistence.models.teardyn:ModelConfig"
+      ],
+      "verification": "record"
+    },
+    {
+      "code_present": true,
+      "details": [],
+      "family": "design",
+      "id": "C023",
+      "location": "Table 2, p. 6",
+      "missing_symbols": [],
+      "statement": "Alternative-data rows are the non-invasive dynamic reference and clinician slit-lamp grading.",
+      "status": "PASS",
+      "symbols": [
+        "tearfilm_persistence.evaluation.aggregate:ScoredEye"
+      ],
+      "verification": "record"
+    },
+    {
+      "code_present": true,
+      "details": [
+        "the five fitted runs require the private split"
+      ],
+      "family": "value",
+      "id": "C024",
+      "location": "Table 2, p. 6",
+      "missing_symbols": [],
+      "statement": "Five independent initialisations give 0.944 with a largest row-to-row dispersion of 0.004.",
+      "status": "BLOCKED",
+      "symbols": [
+        "tearfilm_persistence.runtime.seeding:set_seed"
+      ],
+      "verification": "record"
+    },
+    {
+      "code_present": true,
+      "details": [],
+      "family": "design",
+      "id": "C025",
+      "location": "Table 2, p. 6",
+      "missing_symbols": [],
+      "statement": "The proposed configuration costs 78 GFLOPs and 164 ms per clip.",
+      "status": "PASS",
+      "symbols": [
+        "tearfilm_persistence.evaluation.budget:DECLARED_PROFILE"
+      ],
+      "verification": "record"
+    },
+    {
+      "code_present": true,
+      "details": [],
+      "family": "design",
+      "id": "C026",
+      "location": "Table 2, p. 6",
+      "missing_symbols": [],
+      "statement": "The unconstrained attention baseline costs 214 GFLOPs and 268 ms per clip.",
+      "status": "PASS",
+      "symbols": [
+        "tearfilm_persistence.evaluation.budget:UNCONSTRAINED_GFLOPS"
+      ],
+      "verification": "record"
+    },
+    {
+      "code_present": true,
+      "details": [
+        "component deltas require the five fitted ablations"
+      ],
+      "family": "value",
+      "id": "C027",
+      "location": "Sec. 2.3, p. 5",
+      "missing_symbols": [],
+      "statement": "Removing the fast deformation branch costs 0.047 in AUC.",
+      "status": "BLOCKED",
+      "symbols": [
+        "tearfilm_persistence.evaluation.ablation:delta"
+      ],
+      "verification": "record"
+    },
+    {
+      "code_present": true,
+      "details": [
+        "component deltas require the five fitted ablations"
+      ],
+      "family": "value",
+      "id": "C028",
+      "location": "Sec. 2.3, p. 5",
+      "missing_symbols": [],
+      "statement": "Removing the slow persistence branch costs 0.032 and lifts the false early rate from 0.8% to 4.4%.",
+      "status": "BLOCKED",
+      "symbols": [
+        "tearfilm_persistence.evaluation.ablation:delta"
+      ],
+      "verification": "record"
+    },
+    {
+      "code_present": true,
+      "details": [
+        "component deltas require the five fitted ablations"
+      ],
+      "family": "value",
+      "id": "C029",
+      "location": "Sec. 2.3, p. 5",
+      "missing_symbols": [],
+      "statement": "Removing the structural branch costs 0.008 and removing the adequacy gate 0.003.",
+      "status": "BLOCKED",
+      "symbols": [
+        "tearfilm_persistence.evaluation.ablation:deltas"
+      ],
+      "verification": "record"
+    },
+    {
+      "code_present": true,
+      "details": [
+        "calibration error is measured on the private split"
+      ],
+      "family": "value",
+      "id": "C030",
+      "location": "Sec. 2.3, p. 5",
+      "missing_symbols": [],
+      "statement": "The repeatability-aware head buys calibration rather than discrimination: 0.004 in AUC but 0.031 to 0.052 in calibration error.",
+      "status": "BLOCKED",
+      "symbols": [
+        "tearfilm_persistence.descriptors.calibration:VarianceComponentCalibrator"
+      ],
+      "verification": "record"
+    },
+    {
+      "code_present": true,
+      "details": [],
+      "family": "code",
+      "id": "C031",
+      "location": "Sec. 2.3, p. 5",
+      "missing_symbols": [],
+      "statement": "Removing both temporal branches returns 0.838 against a sum of individual losses of 0.079, an interaction ratio of 1.34.",
+      "status": "PASS",
+      "symbols": [
+        "tearfilm_persistence.evaluation.ablation:interaction_ratio"
+      ],
+      "verification": "mapping"
+    },
+    {
+      "code_present": true,
+      "details": [
+        "substitution rows require the fitted ablation"
+      ],
+      "family": "value",
+      "id": "C032",
+      "location": "Sec. 2.3, p. 6",
+      "missing_symbols": [],
+      "statement": "Substituting mean pooling for the persistence branch returns 0.903.",
+      "status": "BLOCKED",
+      "symbols": [
+        "tearfilm_persistence.models.teardyn:ModelConfig"
+      ],
+      "verification": "record"
+    },
+    {
+      "code_present": true,
+      "details": [
+        "substitution rows require the fitted ablation"
+      ],
+      "family": "value",
+      "id": "C033",
+      "location": "Sec. 2.3, p. 6",
+      "missing_symbols": [],
+      "statement": "Substituting a 2019-generation 3D convolutional backbone for the fast branch returns 0.918.",
+      "status": "BLOCKED",
+      "symbols": [
+        "tearfilm_persistence.deformation.adapter:PlainClipBackbone"
+      ],
+      "verification": "record"
+    },
+    {
+      "code_present": true,
+      "details": [
+        "matched-budget retraining requires the private split"
+      ],
+      "family": "value",
+      "id": "C034",
+      "location": "Sec. 2.3, p. 6",
+      "missing_symbols": [],
+      "statement": "The attentional baseline retrained under a matched budget reaches 0.929 with a false early rate of 3.6%.",
+      "status": "BLOCKED",
+      "symbols": [
+        "tearfilm_persistence.comparators.video_transformer:VideoTransformer"
+      ],
+      "verification": "record"
+    },
+    {
+      "code_present": true,
+      "details": [
+        "tertiles are defined on the private reader study"
+      ],
+      "family": "value",
+      "id": "C035",
+      "location": "Sec. 2.4, p. 7",
+      "missing_symbols": [],
+      "statement": "The model's added value is largest where pre-intervention inter-clinician agreement is lowest.",
+      "status": "BLOCKED",
+      "symbols": [
+        "tearfilm_persistence.evaluation.reader_study:experience_groups"
+      ],
+      "verification": "record"
+    },
+    {
+      "code_present": true,
+      "details": [],
+      "family": "code",
+      "id": "C036",
+      "location": "Sec. 2.4, p. 7",
+      "missing_symbols": [],
+      "statement": "Site-level results are reported per site and pooled, with between-site heterogeneity.",
+      "status": "PASS",
+      "symbols": [
+        "tearfilm_persistence.evaluation.aggregate:site_table",
+        "tearfilm_persistence.evaluation.aggregate:heterogeneity"
+      ],
+      "verification": "mapping"
+    },
+    {
+      "code_present": true,
+      "details": [],
+      "family": "design",
+      "id": "C037",
+      "location": "Table 4, p. 9",
+      "missing_symbols": [],
+      "statement": "Dry eye is defined by a break-up time at or below 5 s together with a symptom score above 13.",
+      "status": "PASS",
+      "symbols": [
+        "tearfilm_persistence.cohort.manifest:ClipRecord"
+      ],
+      "verification": "record"
+    },
+    {
+      "code_present": true,
+      "details": [],
+      "family": "code",
+      "id": "C038",
+      "location": "Table 4, p. 9",
+      "missing_symbols": [],
+      "statement": "Severity kappa is reported within each severity stratum as well as per site.",
+      "status": "PASS",
+      "symbols": [
+        "tearfilm_persistence.evaluation.agreement:severity_kappa"
+      ],
+      "verification": "mapping"
+    },
+    {
+      "code_present": true,
+      "details": [
+        "stratum results require the private table"
+      ],
+      "family": "value",
+      "id": "C039",
+      "location": "Sec. 2.4, p. 8",
+      "missing_symbols": [],
+      "statement": "Discrimination falls from the mild to the severe stratum.",
+      "status": "BLOCKED",
+      "symbols": [
+        "tearfilm_persistence.evaluation.aggregate:stratum_table"
+      ],
+      "verification": "record"
+    },
+    {
+      "code_present": true,
+      "details": [],
+      "family": "design",
+      "id": "C040",
+      "location": "Sec. 2.4, p. 9",
+      "missing_symbols": [],
+      "statement": "The failure taxonomy has three categories: residual post-blink artefacts, marginal fixation stability, and concurrent ocular-surface pathology.",
+      "status": "PASS",
+      "symbols": [
+        "tearfilm_persistence.models.teardyn:artefact_fraction"
+      ],
+      "verification": "record"
+    },
+    {
+      "code_present": true,
+      "details": [
+        "prospective records are not distributed"
+      ],
+      "family": "value",
+      "id": "C041",
+      "location": "Sec. 2.5, p. 10",
+      "missing_symbols": [],
+      "statement": "The completed prospective arm reproduces the retrospective result under a locked model.",
+      "status": "BLOCKED",
+      "symbols": [
+        "tearfilm_persistence.cohort.manifest:ARMS"
+      ],
+      "verification": "record"
+    },
+    {
+      "code_present": true,
+      "details": [],
+      "family": "code",
+      "id": "C042",
+      "location": "Table 5, p. 10",
+      "missing_symbols": [],
+      "statement": "Adequacy is the proportion of attempted acquisitions meeting the joint criterion, and abstentions are excluded from performance estimates.",
+      "status": "PASS",
+      "symbols": [
+        "tearfilm_persistence.evaluation.aggregate:scorable"
+      ],
+      "verification": "mapping"
+    },
+    {
+      "code_present": true,
+      "details": [],
+      "family": "design",
+      "id": "C043",
+      "location": "Sec. 2.6, p. 11",
+      "missing_symbols": [],
+      "statement": "The reader study is a three-arm fully crossed design with a five-week washout.",
+      "status": "PASS",
+      "symbols": [
+        "tearfilm_persistence.evaluation.reader_study:arm_auc_table"
+      ],
+      "verification": "record"
+    },
+    {
+      "code_present": true,
+      "details": [],
+      "family": "code",
+      "id": "C044",
+      "location": "Sec. 2.6, p. 11",
+      "missing_symbols": [],
+      "statement": "The assisted-minus-unaided difference is tested with readers and cases as random factors.",
+      "status": "PASS",
+      "symbols": [
+        "tearfilm_persistence.evaluation.reader_study:orc_difference"
+      ],
+      "verification": "mapping"
+    },
+    {
+      "code_present": true,
+      "details": [],
+      "family": "code",
+      "id": "C045",
+      "location": "Sec. 2.6, p. 11",
+      "missing_symbols": [],
+      "statement": "Reliance and under-reliance are measured over the discordant reads.",
+      "status": "PASS",
+      "symbols": [
+        "tearfilm_persistence.evaluation.reader_study:reliance_summary"
+      ],
+      "verification": "mapping"
+    },
+    {
+      "code_present": true,
+      "details": [
+        "reader experience is recorded in the private study"
+      ],
+      "family": "value",
+      "id": "C046",
+      "location": "Sec. 2.6, p. 11",
+      "missing_symbols": [],
+      "statement": "The gain is largest for the least experienced readers.",
+      "status": "BLOCKED",
+      "symbols": [
+        "tearfilm_persistence.evaluation.reader_study:experience_groups"
+      ],
+      "verification": "record"
+    },
+    {
+      "code_present": true,
+      "details": [
+        "reading times are recorded in the private study"
+      ],
+      "family": "value",
+      "id": "C047",
+      "location": "Table 6, p. 12",
+      "missing_symbols": [],
+      "statement": "Reading time falls from 62.4 s to 51.8 s per case.",
+      "status": "BLOCKED",
+      "symbols": [
+        "tearfilm_persistence.evaluation.discrimination:paired_difference"
+      ],
+      "verification": "record"
+    },
+    {
+      "code_present": true,
+      "details": [
+        "reader ratings are not distributed"
+      ],
+      "family": "value",
+      "id": "C048",
+      "location": "Table 6, p. 12",
+      "missing_symbols": [],
+      "statement": "Inter-reader kappa rises from 0.61 to 0.74.",
+      "status": "BLOCKED",
+      "symbols": [
+        "tearfilm_persistence.evaluation.agreement:weighted_kappa"
+      ],
+      "verification": "record"
+    },
+    {
+      "code_present": true,
+      "details": [],
+      "family": "design",
+      "id": "C049",
+      "location": "Sec. 2.7, p. 11",
+      "missing_symbols": [],
+      "statement": "The locked model runs in silent mode alongside the standard assessment.",
+      "status": "PASS",
+      "symbols": [
+        "tearfilm_persistence.models.gate:AdequacyGate"
+      ],
+      "verification": "record"
+    },
+    {
+      "code_present": true,
+      "details": [
+        "abstention counts require the prospective records"
+      ],
+      "family": "value",
+      "id": "C050",
+      "location": "Sec. 2.7, p. 11",
+      "missing_symbols": [],
+      "statement": "Abstention is 2.5% and requires no additional clinical action.",
+      "status": "BLOCKED",
+      "symbols": [
+        "tearfilm_persistence.evaluation.aggregate:ArmReport"
+      ],
+      "verification": "record"
+    },
+    {
+      "code_present": true,
+      "details": [],
+      "family": "code",
+      "id": "C051",
+      "location": "Sec. 2.7, p. 12",
+      "missing_symbols": [],
+      "statement": "The clinical threshold is placed from the relative cost of the two error paths, not by aggregating them.",
+      "status": "PASS",
+      "symbols": [
+        "tearfilm_persistence.evaluation.discrimination:operating_point"
+      ],
+      "verification": "mapping"
+    },
+    {
+      "code_present": true,
+      "details": [
+        "drift requires the prospective time series"
+      ],
+      "family": "value",
+      "id": "C052",
+      "location": "Sec. 2.7, p. 13",
+      "missing_symbols": [],
+      "statement": "Recalibration drift over the prospective accrual is bounded by a single estimate.",
+      "status": "BLOCKED",
+      "symbols": [
+        "tearfilm_persistence.descriptors.calibration:LogisticCalibrator"
+      ],
+      "verification": "record"
+    },
+    {
+      "code_present": true,
+      "details": [],
+      "family": "design",
+      "id": "C053",
+      "location": "Table 7, p. 16",
+      "missing_symbols": [],
+      "statement": "Each expert case is reported with declared onset, peak affected fraction, reference onset and outcome.",
+      "status": "PASS",
+      "symbols": [
+        "tearfilm_persistence.descriptors.vector:DescriptorVector"
+      ],
+      "verification": "record"
+    },
+    {
+      "code_present": true,
+      "details": [
+        "case-level acquisition is not distributed"
+      ],
+      "family": "value",
+      "id": "C054",
+      "location": "Sec. 2.8, p. 14",
+      "missing_symbols": [],
+      "statement": "Case 3 abstains because fixation stability sits outside the acceptance band.",
+      "status": "BLOCKED",
+      "symbols": [
+        "tearfilm_persistence.streams.adequacy:assess"
+      ],
+      "verification": "record"
+    },
+    {
+      "code_present": true,
+      "details": [
+        "case-level acquisition is not distributed"
+      ],
+      "family": "value",
+      "id": "C055",
+      "location": "Sec. 2.8, p. 14",
+      "missing_symbols": [],
+      "statement": "Case 5 is a genuine false early break-up from a residual post-blink speck.",
+      "status": "BLOCKED",
+      "symbols": [
+        "tearfilm_persistence.models.teardyn:artefact_fraction"
+      ],
+      "verification": "record"
+    },
+    {
+      "code_present": true,
+      "details": [],
+      "family": "design",
+      "id": "C056",
+      "location": "Sec. 2.9, p. 15",
+      "missing_symbols": [],
+      "statement": "The mechanistic arm compares hyperosmolar and iso-osmolar corneal epithelial cultures.",
+      "status": "PASS",
+      "symbols": [
+        "tearfilm_persistence.evaluation.mechanistic:percent_change"
+      ],
+      "verification": "record"
+    },
+    {
+      "code_present": true,
+      "details": [
+        "the replicate table is not distributed"
+      ],
+      "family": "value",
+      "id": "C057",
+      "location": "Sec. 2.9, p. 15",
+      "missing_symbols": [],
+      "statement": "Secreted mediator changes are reported with 95% intervals over three independent experiments.",
+      "status": "BLOCKED",
+      "symbols": [
+        "tearfilm_persistence.evaluation.mechanistic:EffectEstimate"
+      ],
+      "verification": "record"
+    },
+    {
+      "code_present": true,
+      "details": [],
+      "family": "design",
+      "id": "C058",
+      "location": "Sec. 5.1, p. 20",
+      "missing_symbols": [],
+      "statement": "The study has two clinical arms and one non-comparative external cohort.",
+      "status": "PASS",
+      "symbols": [
+        "tearfilm_persistence.cohort.manifest:ARMS"
+      ],
+      "verification": "record"
+    },
+    {
+      "code_present": true,
+      "details": [],
+      "family": "code",
+      "id": "C059",
+      "location": "Sec. 5.1, p. 21",
+      "missing_symbols": [],
+      "statement": "The partition is implemented at the patient level.",
+      "status": "PASS",
+      "symbols": [
+        "tearfilm_persistence.cohort.manifest:ensure_patient_level"
+      ],
+      "verification": "mapping"
+    },
+    {
+      "code_present": true,
+      "details": [],
+      "family": "design",
+      "id": "C060",
+      "location": "Sec. 5.2, p. 21",
+      "missing_symbols": [],
+      "statement": "The platform uses an axial resolution around 15 micrometres.",
+      "status": "PASS",
+      "symbols": [
+        "tearfilm_persistence.structure.meniscus:AXIAL_UM"
+      ],
+      "verification": "record"
+    },
+    {
+      "code_present": true,
+      "details": [],
+      "family": "design",
+      "id": "C061",
+      "location": "Sec. 5.2, p. 21",
+      "missing_symbols": [],
+      "statement": "The structural descriptor resolves the meniscus into 25 to 100 elements.",
+      "status": "PASS",
+      "symbols": [
+        "tearfilm_persistence.streams.masking:AreaConfig"
+      ],
+      "verification": "record"
+    },
+    {
+      "code_present": true,
+      "details": [],
+      "family": "design",
+      "id": "C062",
+      "location": "Sec. 5.2, p. 21",
+      "missing_symbols": [],
+      "statement": "The adequacy floor is 30 frames per second and is an inclusion criterion.",
+      "status": "PASS",
+      "symbols": [
+        "tearfilm_persistence.streams.adequacy:AdequacyConfig"
+      ],
+      "verification": "record"
+    },
+    {
+      "code_present": true,
+      "details": [],
+      "family": "design",
+      "id": "C063",
+      "location": "Sec. 5.3, p. 21",
+      "missing_symbols": [],
+      "statement": "The reference standards are non-invasive break-up time, meniscus height and volume, staining grade and the Ocular Surface Disease Index.",
+      "status": "PASS",
+      "symbols": [
+        "tearfilm_persistence.cohort.manifest:ClipRecord"
+      ],
+      "verification": "record"
+    },
+    {
+      "code_present": true,
+      "details": [],
+      "family": "code",
+      "id": "C064",
+      "location": "Sec. 5.4, p. 21",
+      "missing_symbols": [],
+      "statement": "The objective has three terms: a break-up decision, an onset regression and a repeatability penalty.",
+      "status": "PASS",
+      "symbols": [
+        "tearfilm_persistence.objectives.composite:decision_term",
+        "tearfilm_persistence.objectives.composite:onset_term",
+        "tearfilm_persistence.objectives.composite:repeatability_term"
+      ],
+      "verification": "mapping"
+    },
+    {
+      "code_present": true,
+      "details": [],
+      "family": "design",
+      "id": "C065",
+      "location": "Sec. 5.4, p. 22",
+      "missing_symbols": [],
+      "statement": "The fast branch reads at most five consecutive frames.",
+      "status": "PASS",
+      "symbols": [
+        "tearfilm_persistence.deformation.adapter:AdapterConfig"
+      ],
+      "verification": "record"
+    },
+    {
+      "code_present": true,
+      "details": [],
+      "family": "code",
+      "id": "C066",
+      "location": "Sec. 5.4, p. 22",
+      "missing_symbols": [],
+      "statement": "The derivative is D_t = d_t phi(x_t).",
+      "status": "PASS",
+      "symbols": [
+        "tearfilm_persistence.deformation.derivative:TemporalDerivative"
+      ],
+      "verification": "mapping"
+    },
+    {
+      "code_present": true,
+      "details": [],
+      "family": "code",
+      "id": "C067",
+      "location": "Sec. 5.4, p. 22",
+      "missing_symbols": [],
+      "statement": "The persistence operator keeps loci whose derivative sign is constant on the window and only after the window has expired.",
+      "status": "PASS",
+      "symbols": [
+        "tearfilm_persistence.deformation.persistence:PersistenceOperator"
+      ],
+      "verification": "mapping"
+    },
+    {
+      "code_present": true,
+      "details": [],
+      "family": "code",
+      "id": "C068",
+      "location": "Sec. 5.4, p. 22",
+      "missing_symbols": [],
+      "statement": "Break-up is declared at the first moment the sign-consistent area reaches alpha of the examined area.",
+      "status": "PASS",
+      "symbols": [
+        "tearfilm_persistence.deformation.persistence:first_passage"
+      ],
+      "verification": "mapping"
+    },
+    {
+      "code_present": true,
+      "details": [],
+      "family": "code",
+      "id": "C069",
+      "location": "Sec. 5.4, p. 22",
+      "missing_symbols": [],
+      "statement": "The instability curve is the occupied fraction of the examined area.",
+      "status": "PASS",
+      "symbols": [
+        "tearfilm_persistence.deformation.persistence:area_fraction"
+      ],
+      "verification": "mapping"
+    },
+    {
+      "code_present": true,
+      "details": [],
+      "family": "design",
+      "id": "C070",
+      "location": "Sec. 5.4, p. 23",
+      "missing_symbols": [],
+      "statement": "The persistence window is fixed at 0.17 s.",
+      "status": "PASS",
+      "symbols": [
+        "tearfilm_persistence.deformation.persistence:TAU_SECONDS"
+      ],
+      "verification": "record"
+    },
+    {
+      "code_present": true,
+      "details": [],
+      "family": "design",
+      "id": "C071",
+      "location": "Sec. 5.4, p. 23",
+      "missing_symbols": [],
+      "statement": "The descriptor is the six-tuple of onset, peak instability, slope, locus entropy, meniscus height and meniscus area.",
+      "status": "PASS",
+      "symbols": [
+        "tearfilm_persistence.descriptors.vector:COMPONENTS"
+      ],
+      "verification": "record"
+    },
+    {
+      "code_present": true,
+      "details": [],
+      "family": "code",
+      "id": "C072",
+      "location": "Sec. 5.4, p. 23",
+      "missing_symbols": [],
+      "statement": "The descriptor head adjusts the measurement with variance components under one standard across sites.",
+      "status": "PASS",
+      "symbols": [
+        "tearfilm_persistence.descriptors.calibration:VarianceComponentCalibrator"
+      ],
+      "verification": "mapping"
+    },
+    {
+      "code_present": true,
+      "details": [],
+      "family": "code",
+      "id": "C073",
+      "location": "Algorithm 1, p. 24",
+      "missing_symbols": [],
+      "statement": "Adequacy is evaluated before any inference, and the artefact channel is produced inside the blink-to-blink loop.",
+      "status": "PASS",
+      "symbols": [
+        "tearfilm_persistence.models.gate:AdequacyGate",
+        "tearfilm_persistence.models.teardyn:artefact_fraction"
+      ],
+      "verification": "mapping"
+    },
+    {
+      "code_present": true,
+      "details": [],
+      "family": "code",
+      "id": "C074",
+      "location": "Sec. 5.5, p. 23",
+      "missing_symbols": [],
+      "statement": "Calibration follows descriptor collection and is fitted on repeated measurements of the same eyes.",
+      "status": "PASS",
+      "symbols": [
+        "tearfilm_persistence.descriptors.calibration:fit_calibration",
+        "tearfilm_persistence.descriptors.calibration:calibration_report"
+      ],
+      "verification": "mapping"
+    },
+    {
+      "code_present": true,
+      "details": [],
+      "family": "code",
+      "id": "C075",
+      "location": "Table 8, p. 24",
+      "missing_symbols": [],
+      "statement": "The inference path is decomposed into six stages that sum to the reported total.",
+      "status": "PASS",
+      "symbols": [
+        "tearfilm_persistence.evaluation.budget:profile_checks"
+      ],
+      "verification": "mapping"
+    },
+    {
+      "code_present": true,
+      "details": [],
+      "family": "design",
+      "id": "C076",
+      "location": "Sec. 5.7, p. 23",
+      "missing_symbols": [],
+      "statement": "Twelve readers in three experience groups read every case twice under a five-week washout.",
+      "status": "PASS",
+      "symbols": [
+        "tearfilm_persistence.evaluation.reader_study:experience_groups"
+      ],
+      "verification": "record"
+    },
+    {
+      "code_present": true,
+      "details": [],
+      "family": "code",
+      "id": "C077",
+      "location": "Sec. 5.8, p. 25",
+      "missing_symbols": [],
+      "statement": "Holm's step-down method controls multiplicity over the primary criteria.",
+      "status": "PASS",
+      "symbols": [
+        "tearfilm_persistence.evaluation.multiplicity:holm_stepdown"
+      ],
+      "verification": "mapping"
+    },
+    {
+      "code_present": true,
+      "details": [],
+      "family": "design",
+      "id": "C078",
+      "location": "Sec. 5.9, p. 25",
+      "missing_symbols": [],
+      "statement": "The four pre-specified criteria are an assisted AUC of at least 0.92, a gain of at least 0.05, a false early rate of at most 1.0% and a coefficient of variation of at most 45%.",
+      "status": "PASS",
+      "symbols": [
+        "tearfilm_persistence.evaluation.criteria:CriteriaThresholds"
+      ],
+      "verification": "record"
+    },
+    {
+      "code_present": true,
+      "details": [],
+      "family": "design",
+      "id": "C079",
+      "location": "Sec. 5.10, p. 26",
+      "missing_symbols": [],
+      "statement": "The mechanistic arm is in vitro only, with no animal work and no new human specimens.",
+      "status": "PASS",
+      "symbols": [
+        "tearfilm_persistence.evaluation.mechanistic:summarise"
+      ],
+      "verification": "record"
+    },
+    {
+      "code_present": true,
+      "details": [],
+      "family": "design",
+      "id": "C080",
+      "location": "Data availability, p. 26",
+      "missing_symbols": [],
+      "statement": "The private clinical cohort cannot be redistributed; the derived quantities are available on request.",
+      "status": "PASS",
+      "symbols": [
+        "tearfilm_persistence.cohort.manifest:load_table"
+      ],
+      "verification": "record"
+    }
+  ],
+  "deviations": [
+    {
+      "area": "persistence operator",
+      "id": "D01",
+      "justification": "The sign test is piecewise constant in the derivative and therefore has zero gradient almost everywhere. A relaxation is the only way to train the three-term objective end to end, and the gap between the two evaluators is measured in execution check E52.",
+      "manuscript_location": "Sec. 5.4, Algorithm 1 line 9",
+      "released_behaviour": "Two evaluators are released. The hard evaluator applies the sign test as written and produces every reported descriptor. The soft evaluator replaces the sign-equality indicator with a sigmoid of the consecutive derivative product so that the integrated objective has a gradient; training uses it and inference does not."
+    },
+    {
+      "area": "affected-area fraction",
+      "id": "D02",
+      "justification": "The article names alpha but does not print a value. The default is bounded above by the smallest peak affected fraction the case table reports (0.36), because a declaration cannot follow its own peak.",
+      "manuscript_location": "Sec. 5.4, the threshold alpha",
+      "released_behaviour": "alpha defaults to 0.10 of the examined area."
+    },
+    {
+      "area": "onset regression",
+      "id": "D03",
+      "justification": "The term is named without a norm. Smooth L1 keeps a linear tail for the late declarations that the persistence requirement can produce.",
+      "manuscript_location": "Sec. 5.4, the second objective term",
+      "released_behaviour": "Smooth L1 with a half-second transition, applied to the sub-tests that carry a reference onset."
+    },
+    {
+      "area": "objective weights",
+      "id": "D04",
+      "justification": "The article states that the three terms are combined and does not print the weights.",
+      "manuscript_location": "Sec. 5.4",
+      "released_behaviour": "Decision 1.0, onset 1.0, repeatability 0.1."
+    },
+    {
+      "area": "optimisation",
+      "id": "D05",
+      "justification": "No schedule, optimiser, epoch count, batch size or precision is printed. These are released values and are recorded as engineering defaults rather than as manuscript settings.",
+      "manuscript_location": "Sec. 5.4",
+      "released_behaviour": "AdamW, cosine schedule with linear warm-up, 3e-4, weight decay 1e-2, 40 epochs, batch 8, bf16, gradient clipping at 1.0."
+    },
+    {
+      "area": "operating point",
+      "id": "D06",
+      "justification": "The article states that the threshold is placed at the weighted specificity limit derived from the two error costs and does not print the costs or the floor.",
+      "manuscript_location": "Sec. 2.7",
+      "released_behaviour": "The threshold maximises sensitivity subject to a specificity floor of 0.90."
+    },
+    {
+      "area": "structural read-out",
+      "id": "D07",
+      "justification": "Only the axial resolution is printed; the area needs both pitches.",
+      "manuscript_location": "Sec. 5.2",
+      "released_behaviour": "Lateral pixel pitch equals the printed axial resolution of 15 micrometres."
+    },
+    {
+      "area": "blink segmentation",
+      "id": "D08",
+      "justification": "The formal statement takes blink events as given. A released pipeline has to obtain them, and the detector is reported so that a reader can replace it.",
+      "manuscript_location": "Sec. 5.6",
+      "released_behaviour": "Blinks are detected from a joint contrast collapse and motion spike in the acquisition."
+    },
+    {
+      "area": "sub-test boundary",
+      "id": "D09",
+      "justification": "Written literally, line 12 assigns the loop variable even when the while condition failed, which would place a declaration one frame beyond the epoch it belongs to.",
+      "manuscript_location": "Algorithm 1, lines 9 to 12",
+      "released_behaviour": "A sub-test whose loop variable passes the epoch end is recorded as censored, not as a declaration at the boundary frame."
+    },
+    {
+      "area": "decision target",
+      "id": "D10",
+      "justification": "The term is described over sub-tests. The model reports one decision per acquisition because the clinical endpoint and the comparator table are both clip-level; the per-sub-test labels are used for the onset term.",
+      "manuscript_location": "Sec. 5.4, the first objective term",
+      "released_behaviour": "The decision is formed once per acquisition from the presence of a reference break-up."
+    },
+    {
+      "area": "fast-branch weights",
+      "id": "D11",
+      "justification": "The pretrained prior the article describes is a third-party checkpoint that cannot be redistributed here. The ablation row that depends on it is reported BLOCKED rather than approximated.",
+      "manuscript_location": "Sec. 5.4",
+      "released_behaviour": "No pretrained clip checkpoint is shipped. When one is not supplied the trunk trains jointly with the adapter; when one is supplied the trunk is frozen and only the adapter is fitted."
+    }
+  ],
+  "engineering_defaults": [
+    {
+      "name": "batch_size",
+      "status": "not printed in the article",
+      "value": "8 clips"
+    },
+    {
+      "name": "grad_accumulation",
+      "status": "not printed in the article",
+      "value": "1"
+    },
+    {
+      "name": "epochs",
+      "status": "not printed in the article",
+      "value": "40"
+    },
+    {
+      "name": "learning_rate",
+      "status": "not printed in the article",
+      "value": "3e-4"
+    },
+    {
+      "name": "weight_decay",
+      "status": "not printed in the article",
+      "value": "1e-2"
+    },
+    {
+      "name": "warmup_steps",
+      "status": "not printed in the article",
+      "value": "500"
+    },
+    {
+      "name": "scheduler",
+      "status": "not printed in the article",
+      "value": "cosine with linear warm-up"
+    },
+    {
+      "name": "precision",
+      "status": "not printed in the article",
+      "value": "bf16"
+    },
+    {
+      "name": "grad_clip",
+      "status": "not printed in the article",
+      "value": "1.0"
+    },
+    {
+      "name": "affected_area_fraction",
+      "status": "named but not valued in the article",
+      "value": "0.10"
+    },
+    {
+      "name": "relaxation_sharpness",
+      "status": "engineering value for the differentiable surrogate",
+      "value": "20.0"
+    },
+    {
+      "name": "onset_beta",
+      "status": "norm not printed in the article",
+      "value": "0.5 s"
+    },
+    {
+      "name": "repeatability_weight",
+      "status": "not printed in the article",
+      "value": "0.1"
+    },
+    {
+      "name": "specificity_floor",
+      "status": "cost weighting not printed",
+      "value": "0.90"
+    },
+    {
+      "name": "lateral_pitch",
+      "status": "only the axial resolution is printed",
+      "value": "15 um"
+    },
+    {
+      "name": "max_fixation_drift",
+      "status": "band width not printed in the article",
+      "value": "0.055 of frame width"
+    },
+    {
+      "name": "locus_grid",
+      "status": "the article prints a 25 to 100 element range",
+      "value": "8 x 8"
+    },
+    {
+      "name": "clip_trunk_widths",
+      "status": "architecture width not printed",
+      "value": "24, 48, 64"
+    }
+  ],
+  "implementation_map": [
+    {
+      "files": "cohort/manifest.py, cohort/sampling.py",
+      "item": "cohorts, arms, partition",
+      "section": "Sec. 2.1, Sec. 5.1"
+    },
+    {
+      "files": "streams/adequacy.py, streams/acquisition.py",
+      "item": "acquisition and adequacy gate",
+      "section": "Sec. 5.2"
+    },
+    {
+      "files": "streams/blinks.py, deformation/persistence.py",
+      "item": "sub-test partition",
+      "section": "Sec. 5.6"
+    },
+    {
+      "files": "deformation/adapter.py, deformation/derivative.py",
+      "item": "representation and derivative",
+      "section": "Sec. 5.4, D_t = d_t phi(x_t)"
+    },
+    {
+      "files": "deformation/persistence.py, deformation/curve.py",
+      "item": "persistence operator and curve",
+      "section": "Sec. 5.4, Pi_tau"
+    },
+    {
+      "files": "deformation/curve.py, models/teardyn.py",
+      "item": "onset, peak, slope, entropy, artefact channel",
+      "section": "Algorithm 1, lines 9 to 15"
+    },
+    {
+      "files": "descriptors/vector.py, descriptors/calibration.py",
+      "item": "descriptor vector and calibration",
+      "section": "Sec. 5.4, z_k"
+    },
+    {
+      "files": "structure/meniscus.py",
+      "item": "meniscus height and area",
+      "section": "Sec. 5.2, 15 um"
+    },
+    {
+      "files": "objectives/composite.py",
+      "item": "integrated objective",
+      "section": "Sec. 5.4, three terms"
+    },
+    {
+      "files": "comparators/",
+      "item": "six comparators",
+      "section": "Table 2"
+    },
+    {
+      "files": "models/teardyn.py, evaluation/ablation.py",
+      "item": "component ablations and interaction",
+      "section": "Table 3"
+    },
+    {
+      "files": "evaluation/aggregate.py, evaluation/discrimination.py",
+      "item": "site and stratum reporting",
+      "section": "Table 4, Table 5"
+    },
+    {
+      "files": "evaluation/reader_study.py",
+      "item": "three-arm reader study",
+      "section": "Sec. 2.6, Table 6"
+    },
+    {
+      "files": "evaluation/multiplicity.py, evaluation/agreement.py",
+      "item": "multiplicity and agreement",
+      "section": "Sec. 5.8"
+    },
+    {
+      "files": "evaluation/criteria.py",
+      "item": "pre-specified criteria",
+      "section": "Sec. 5.9"
+    },
+    {
+      "files": "evaluation/budget.py",
+      "item": "computational profile",
+      "section": "Table 8"
+    },
+    {
+      "files": "evaluation/mechanistic.py",
+      "item": "mechanistic arm",
+      "section": "Sec. 2.9, Sec. 5.10"
+    },
+    {
+      "files": "runtime/loop.py, runtime/checkpoint.py",
+      "item": "training loop and checkpointing",
+      "section": "Sec. 5.4"
+    }
+  ],
+  "paper": {
+    "cohort_distributed": false,
+    "cohort_note": "The clinical cohort is private and de-identified at patient and institution level; no record, derived descriptor or re-linkage key is shipped or reconstructed.",
+    "manuscript_type": "clinical validation with a completed prospective arm and a three-arm reader study",
+    "package": "tearfilm_persistence",
+    "title": "Repurposing Robotic Anterior Segment Imaging for Tear Film Assessment in Dry Eye with Temporal Models",
+    "venue": "npj Digital Medicine"
+  },
+  "summary": {
+    "claims_blocked": 25,
+    "claims_checked": 80,
+    "claims_failed": 0,
+    "claims_passed": 55,
+    "code_status": "PASS",
+    "note": "A claim is BLOCKED when its statement is a recorded measurement that needs the private cohort."
+  }
+}

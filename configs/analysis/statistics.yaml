@@ -1,0 +1,23 @@
+# Statistical design. Reader counts, arm count, washout and case count are
+# printed design constants; the bootstrap count is a released default.
+analysis:
+  bootstrap: 1000
+  seeds: [0, 1, 2, 3, 4]
+  multiplicity: holm
+  specificity_floor: 0.90
+  false_early_margin_seconds: 3.0
+  criteria:
+    assisted_auc_min: 0.92
+    assisted_gain_min: 0.05
+    false_early_max_percent: 1.0
+    descriptor_cov_max_percent: 45.0
+  reader_study:
+    readers: 12
+    arms: [clinician_alone, model_alone, clinician_with_model]
+    washout_weeks: 5
+    cases: 420
+    patients: 310
+    experience_groups:
+      under_5: 4
+      five_to_ten: 4
+      over_ten: 4

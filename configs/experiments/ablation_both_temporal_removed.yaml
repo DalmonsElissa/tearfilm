@@ -1,0 +1,7 @@
+name: ablation_both_temporal_removed
+extends:
+  - main.yaml
+aim: both temporal branches removed, for the interaction ratio
+model:
+  use_fast: false
+  use_persistence: false

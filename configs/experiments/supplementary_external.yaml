@@ -1,0 +1,5 @@
+name: supplementary_external
+extends:
+  - main.yaml
+aim: the independent external cohort acquired with a different device generation
+notes: the split is read from the table as external; nothing is refitted

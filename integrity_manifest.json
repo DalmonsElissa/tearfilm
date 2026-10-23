@@ -1,0 +1,630 @@
+{
+  "algorithm": "sha256",
+  "entries": [
+    {
+      "bytes": 137,
+      "path": ".gitignore",
+      "sha256": "fbfe22041ef693c6a2fae078ef2e4a792a019759c47476bc9cd009ecbd941072"
+    },
+    {
+      "bytes": 416,
+      "path": ".pre-commit-config.yaml",
+      "sha256": "21921a4814ca346c5f755c761a38a87fe3e8ad9ee5643d2f08392f9595456ee3"
+    },
+    {
+      "bytes": 702,
+      "path": "Dockerfile",
+      "sha256": "1f84f51b4f80b3fa2e9f827a886744b7db5dcde245f8a8491420f8c5ddb4b978"
+    },
+    {
+      "bytes": 1111,
+      "path": "LICENSE",
+      "sha256": "6b44abc8f9ab30cc8a0e166ef6c912f9d3f91ce9b67eb9f0c8df49abc710fff7"
+    },
+    {
+      "bytes": 11852,
+      "path": "README.md",
+      "sha256": "02d3367e01ce0dc908848e5675a8446503ddbf4b26df92a70f2b87c4f072b601"
+    },
+    {
+      "bytes": 1699,
+      "path": "THIRD_PARTY_NOTICES.txt",
+      "sha256": "d923cecd72123d5043a9a979fe0d64935f341ea6c6e1c29a524399020d8359e3"
+    },
+    {
+      "bytes": 47394,
+      "path": "claim_to_code.json",
+      "sha256": "93b28fbffff19cf583e6d78c66b3435ced1ead12dfb4cd1093714ad9a40d035b"
+    },
+    {
+      "bytes": 850,
+      "path": "configs/acquisition/meniscus_band.yaml",
+      "sha256": "aff3707267e7d117f248dddde6b49424c996d671308a96e9e6991568849ba784"
+    },
+    {
+      "bytes": 645,
+      "path": "configs/analysis/statistics.yaml",
+      "sha256": "1f08fa1cb328b043e6c5d2489d3faca14defd2a59c0b5f8f1feaae6b1713e832"
+    },
+    {
+      "bytes": 629,
+      "path": "configs/experiments/_smoke.yaml",
+      "sha256": "b1427ac75f4853e1b8ce0d98eade157ef13b3e1ec8562cf5bf6d9951b59fbf69"
+    },
+    {
+      "bytes": 173,
+      "path": "configs/experiments/ablation_both_temporal_removed.yaml",
+      "sha256": "fa3c11b42317ffb445569df277b5b202e075e300d27596167e3f108c588f915b"
+    },
+    {
+      "bytes": 143,
+      "path": "configs/experiments/ablation_fast_conv3d.yaml",
+      "sha256": "f340f752ab6f0f131a5cebcab375a595dbf5a7b0670d269ceaee9f03e8d1845d"
+    },
+    {
+      "bytes": 166,
+      "path": "configs/experiments/ablation_minus_adequacy_gate.yaml",
+      "sha256": "f06c27c679b045da5295646cf1b060cc1ce2223d4a512e60ea1f843531e3c34d"
+    },
+    {
+      "bytes": 100,
+      "path": "configs/experiments/ablation_minus_fast.yaml",
+      "sha256": "58652eb0b61114f257b4d3d5169a41c325ccd8c8241ef3b80efb85dbbe6e4430"
+    },
+    {
+      "bytes": 174,
+      "path": "configs/experiments/ablation_minus_persistence.yaml",
+      "sha256": "b39b5543b161595ace21180ac256e92531ece281ea555dd0255199b3088cb5fb"
+    },
+    {
+      "bytes": 310,
+      "path": "configs/experiments/ablation_minus_repeatability_head.yaml",
+      "sha256": "0231f1e91ae59cb04e6307bad6d2c85eed9e379466998c2c6a25455f96f03fcc"
+    },
+    {
+      "bytes": 112,
+      "path": "configs/experiments/ablation_minus_structural.yaml",
+      "sha256": "1a65915a6373ed0d57b505320ec8a36768999178056ddaad50f057b15e732b77"
+    },
+    {
+      "bytes": 175,
+      "path": "configs/experiments/ablation_persistence_mean_pool.yaml",
+      "sha256": "fb603a1e10c996790968d7c3230d7a83b5143f6a2ac3501fed2f694ad6c2d95a"
+    },
+    {
+      "bytes": 415,
+      "path": "configs/experiments/baseline_factorised_2plus1.yaml",
+      "sha256": "67c53be1670db82b69857faad8e04ae2048dbcb20bdc2846e463d1f7ba91430d"
+    },
+    {
+      "bytes": 412,
+      "path": "configs/experiments/baseline_frame_classifier.yaml",
+      "sha256": "e86f6c42d6636a686743ee51bb65366e8c1cc0af675ea9f80457d83ee80e69f9"
+    },
+    {
+      "bytes": 485,
+      "path": "configs/experiments/baseline_frozen_probe.yaml",
+      "sha256": "53d810f93cbccd47efc54b2c96c1de0301e44249382bb63e5afa62ce99dbdebb"
+    },
+    {
+      "bytes": 397,
+      "path": "configs/experiments/baseline_mean_pooled.yaml",
+      "sha256": "92ecc79787942b6f651203f2a72ba6aed2f4f3835d65f0c9671a536b41f0595d"
+    },
+    {
+      "bytes": 400,
+      "path": "configs/experiments/baseline_siamese_pair.yaml",
+      "sha256": "7b17dbef7fa2beec2abd91bab24cd1a19a8ddfbc43f525c712f3b911b628e829"
+    },
+    {
+      "bytes": 415,
+      "path": "configs/experiments/baseline_video_transformer.yaml",
+      "sha256": "813a945c2fa36e6d59ddd567464526a8b93fed7edcccb3d7f2a420d008a6c1ea"
+    },
+    {
+      "bytes": 284,
+      "path": "configs/experiments/main.yaml",
+      "sha256": "8b9772b4a5ffb8bb73b9cef09219f688bcef0a61ae882569083d02a6f4ba4e1d"
+    },
+    {
+      "bytes": 206,
+      "path": "configs/experiments/supplementary_external.yaml",
+      "sha256": "b34359ecc97985a14d1ec7d1fe50317816086f08c596c2439c27559a9fd2db74"
+    },
+    {
+      "bytes": 257,
+      "path": "configs/experiments/supplementary_matched_budget.yaml",
+      "sha256": "44a5494e799bf1e204b754a30d9e9093ac188d0f0260162aa5e46f65ae22c7a1"
+    },
+    {
+      "bytes": 197,
+      "path": "configs/experiments/supplementary_prospective.yaml",
+      "sha256": "5de5705cdc1aee4eaef4f6371d84322fc99d9094c5209a315c97a5c4ab5b7891"
+    },
+    {
+      "bytes": 192,
+      "path": "configs/experiments/supplementary_reader_study.yaml",
+      "sha256": "d30bccfd45a912d331b78b47803ed3f2b5a1e01d7392354c710df3e06853a6b8"
+    },
+    {
+      "bytes": 197,
+      "path": "configs/experiments/supplementary_silent_mode.yaml",
+      "sha256": "25deb0a13efa16ed149540c6067a8c95e9915c7cec5acfa11300aa92fd826ddd"
+    },
+    {
+      "bytes": 689,
+      "path": "configs/model/twoscale.yaml",
+      "sha256": "0ba5f2456381c69c88244377f8bf15e635de3574b0629d1e5565e305055dd1de"
+    },
+    {
+      "bytes": 453,
+      "path": "configs/optimisation/adamw_cosine.yaml",
+      "sha256": "88db1ef68f4151cfe235a807f266bee7f18715e6de3176fed353d3084aa33b5f"
+    },
+    {
+      "bytes": 1448,
+      "path": "dataset_urls.txt",
+      "sha256": "41a6b7073108b7f6f00973860eceb7aaf6afd8f78eb1408585a096540b9fb455"
+    },
+    {
+      "bytes": 234,
+      "path": "environment.yml",
+      "sha256": "e9af657309ecbaf19f4189a2227f7751c612dcb22aadab32e086be9cd0d8ae88"
+    },
+    {
+      "bytes": 1743,
+      "path": "pyproject.toml",
+      "sha256": "c3ccb1f74fcfbeada040724184be3f866ecf8c0f98826ce839aea9e75694bce4"
+    },
+    {
+      "bytes": 97,
+      "path": "requirements-dev.txt",
+      "sha256": "3342c52904b0bc12509dc6c39531043e57a7282f14bfece3c0a136b6b08477d2"
+    },
+    {
+      "bytes": 59,
+      "path": "requirements.txt",
+      "sha256": "b9a69501a40e29676fff0e570378afc8dea0862e9fb71593a0f812c92b97b0d6"
+    },
+    {
+      "bytes": 573,
+      "path": "scripts/evaluate.sh",
+      "sha256": "c5ffc87c9b124d4069a2d38c48e6a88de275256a09956aa1790e2d8ef9b4800b"
+    },
+    {
+      "bytes": 1062,
+      "path": "scripts/stage_data.sh",
+      "sha256": "b13bee4356e48ceea3c3794584cb34f8eb7a95c23131ffe3bc2846c530b3372c"
+    },
+    {
+      "bytes": 493,
+      "path": "scripts/train.sh",
+      "sha256": "8ccba2df119ee00540d34aca5b910a114c2d83bef4bfd9355dc866668561667e"
+    },
+    {
+      "bytes": 260,
+      "path": "scripts/verify.sh",
+      "sha256": "7144467140716f0d98b580c62a8796555dbd4d656a0c7eaa1fb505911624358e"
+    },
+    {
+      "bytes": 568,
+      "path": "src/tearfilm_persistence/__init__.py",
+      "sha256": "1a2850d362ef3c81f6a75b24bb95ab44266e10b2235360b04f51321cda8e10c3"
+    },
+    {
+      "bytes": 85,
+      "path": "src/tearfilm_persistence/cli/__init__.py",
+      "sha256": "a5c8a55a8686869846fbe22c712a27b5d6fc074325c8dc79199b87f9079b86ac"
+    },
+    {
+      "bytes": 3303,
+      "path": "src/tearfilm_persistence/cli/calibrate.py",
+      "sha256": "3c41579d99e21e6b5ea858e8c1376e2db3dd6d9ac0b879a765a3b3f942bbfbeb"
+    },
+    {
+      "bytes": 1813,
+      "path": "src/tearfilm_persistence/cli/common.py",
+      "sha256": "5df04211ab19a5298a747237786a545072c48c848d247ecdf0818b5be92dc77b"
+    },
+    {
+      "bytes": 3928,
+      "path": "src/tearfilm_persistence/cli/evaluate.py",
+      "sha256": "bf6e70421896bda7c9592031a5156b0668f97ca4be162a3119250d8c77654bd6"
+    },
+    {
+      "bytes": 1908,
+      "path": "src/tearfilm_persistence/cli/infer.py",
+      "sha256": "cfe02344feaa0ce1839107f94203711e35a16ca5c5efbf4de835c1f4b740126d"
+    },
+    {
+      "bytes": 2524,
+      "path": "src/tearfilm_persistence/cli/train.py",
+      "sha256": "835ec5aaf5d2a706b63596366ac0836ec09047f99f7a7d90c1429ad277929005"
+    },
+    {
+      "bytes": 1427,
+      "path": "src/tearfilm_persistence/cli/verify.py",
+      "sha256": "a46bfdaa9f7a3313f2d720cbf8eabd96465e0f430210db3244c6c6a92af65e1f"
+    },
+    {
+      "bytes": 770,
+      "path": "src/tearfilm_persistence/cohort/__init__.py",
+      "sha256": "e377da08382e1b835e62cab80ea8284d15f62e2956c66c1f062fa65815b38227"
+    },
+    {
+      "bytes": 5307,
+      "path": "src/tearfilm_persistence/cohort/manifest.py",
+      "sha256": "d0d59cb84cb019a35546449b8f7773f0095e26da9f167e7df39e7a8ede52e236"
+    },
+    {
+      "bytes": 1950,
+      "path": "src/tearfilm_persistence/cohort/repeats.py",
+      "sha256": "23dbf923cee320f2f84e23a084cbf6d3f860e7e205fd2e93af59b3d91c3df98e"
+    },
+    {
+      "bytes": 3673,
+      "path": "src/tearfilm_persistence/cohort/sampling.py",
+      "sha256": "b13bd435ea39803ccb8407d0b21d17b698d1b71034247ea27dca2cbef61795f9"
+    },
+    {
+      "bytes": 1441,
+      "path": "src/tearfilm_persistence/comparators/__init__.py",
+      "sha256": "8e89514a63376e82d27c505c85f2c2991bb14c7f3dc948978f5b3e93d3b0a80b"
+    },
+    {
+      "bytes": 2522,
+      "path": "src/tearfilm_persistence/comparators/adapter.py",
+      "sha256": "037dab6b2d968ceb22f0f4e1f46fe5cf3846a2655faf268ef17cf636a8f7d4a3"
+    },
+    {
+      "bytes": 2944,
+      "path": "src/tearfilm_persistence/comparators/factorised_2plus1.py",
+      "sha256": "97cf4aede7d012adcd6c51284feb9382b2abc6273ba88a22c3b0740620caecdb"
+    },
+    {
+      "bytes": 1430,
+      "path": "src/tearfilm_persistence/comparators/frame_classifier.py",
+      "sha256": "fc21b68a1c653d60d737a4a8e3311f527d7208c53f80ab9b3dd569e5b280da63"
+    },
+    {
+      "bytes": 2344,
+      "path": "src/tearfilm_persistence/comparators/frozen_probe.py",
+      "sha256": "5dbadfa2c96ff8bb09771ede0e4c317ff76605ce43c4ebf4cc91d6183716ec88"
+    },
+    {
+      "bytes": 1271,
+      "path": "src/tearfilm_persistence/comparators/mean_pooled.py",
+      "sha256": "0c09098afaba8ff589dd2bf255978575129cd0849346c71e9264595d7fbf6d96"
+    },
+    {
+      "bytes": 2037,
+      "path": "src/tearfilm_persistence/comparators/siamese_pair.py",
+      "sha256": "fea455e61a11a798f007df7260c677d2f8db8326ba2ab9811949c343a9e0309a"
+    },
+    {
+      "bytes": 2566,
+      "path": "src/tearfilm_persistence/comparators/tower.py",
+      "sha256": "dfd63105b2508f9a006702d8b62b41d5be8da9039c81b882599b187eef540f21"
+    },
+    {
+      "bytes": 3919,
+      "path": "src/tearfilm_persistence/comparators/video_transformer.py",
+      "sha256": "2dc881dfc0940c9abd85e9218ec0c14acc20358838dfac60ba03054578ba80f9"
+    },
+    {
+      "bytes": 1225,
+      "path": "src/tearfilm_persistence/deformation/__init__.py",
+      "sha256": "93bdae34f368eab76dce0a91f6a34eb0c19faa007ccc1a1b22f608a3bd95ffd8"
+    },
+    {
+      "bytes": 5706,
+      "path": "src/tearfilm_persistence/deformation/adapter.py",
+      "sha256": "ba8500c39865946b7adaf5e68ed61cd17262498d76142993a2c43a2c4b288f15"
+    },
+    {
+      "bytes": 5150,
+      "path": "src/tearfilm_persistence/deformation/curve.py",
+      "sha256": "2d7f9485dce1c6f0ffb1fbb590ccb8fc859e9e05ce98bde1edc666f4aab7cd4b"
+    },
+    {
+      "bytes": 2757,
+      "path": "src/tearfilm_persistence/deformation/derivative.py",
+      "sha256": "801849e3c62c3a828c0ddd898fe37521645505ca0ad70da036b277f9aae8e096"
+    },
+    {
+      "bytes": 7172,
+      "path": "src/tearfilm_persistence/deformation/persistence.py",
+      "sha256": "74230ea67c31ca4df3bf157c7e742921146cc8b69672499f47be23aa74f0fecd"
+    },
+    {
+      "bytes": 981,
+      "path": "src/tearfilm_persistence/descriptors/__init__.py",
+      "sha256": "85608b11c55c20163a610f9459a4361ddc57df86613ca917871b18e65c047b9a"
+    },
+    {
+      "bytes": 8859,
+      "path": "src/tearfilm_persistence/descriptors/calibration.py",
+      "sha256": "6494edd075821dd1c95e3318cf152753bbd259283a170630fcd48cea4b9c9fbd"
+    },
+    {
+      "bytes": 7048,
+      "path": "src/tearfilm_persistence/descriptors/repeatability.py",
+      "sha256": "73c4bd0d9ab325d47755230cd4e5a9816775c96ba0b472e2abdadfe3277f3018"
+    },
+    {
+      "bytes": 3598,
+      "path": "src/tearfilm_persistence/descriptors/vector.py",
+      "sha256": "3e7365ea3ffdfca186e23c7e9cbaf3478a0cf22670cb45a74c925f6a8274bdeb"
+    },
+    {
+      "bytes": 1440,
+      "path": "src/tearfilm_persistence/evaluation/__init__.py",
+      "sha256": "d609dbf98162f6212805fe223b913d3f15f54bd0d8776553826c2d5cb6a0e7e9"
+    },
+    {
+      "bytes": 1224,
+      "path": "src/tearfilm_persistence/evaluation/ablation.py",
+      "sha256": "0fa6af99f5ed3cb17c0a989afa854b5aaebe5894c99c12817a343279cbbb625b"
+    },
+    {
+      "bytes": 6693,
+      "path": "src/tearfilm_persistence/evaluation/aggregate.py",
+      "sha256": "3cdf46a0b42780306d78674e8be686b013667054bf2324c13757d2498db4fa7c"
+    },
+    {
+      "bytes": 2206,
+      "path": "src/tearfilm_persistence/evaluation/agreement.py",
+      "sha256": "8eb6128ce3f62a62c9cbbf72a843ad2f6dfec0fb1d2eb3fa53fd980544e5cce8"
+    },
+    {
+      "bytes": 3382,
+      "path": "src/tearfilm_persistence/evaluation/budget.py",
+      "sha256": "53da0d73eb5781ad6733c77b76d863725a16066fcaffc8be069bd69318cdf647"
+    },
+    {
+      "bytes": 3417,
+      "path": "src/tearfilm_persistence/evaluation/criteria.py",
+      "sha256": "7674fa37474feb0e176aad1eea9873dfd6577cc1f1e5e9dffeccf9ddc674f0dd"
+    },
+    {
+      "bytes": 6175,
+      "path": "src/tearfilm_persistence/evaluation/discrimination.py",
+      "sha256": "643410a05d3904172b102ed589134e1c94282f05146bc83cc1649a320efa8740"
+    },
+    {
+      "bytes": 3720,
+      "path": "src/tearfilm_persistence/evaluation/mechanistic.py",
+      "sha256": "ec32bb16f5c2b4c816650609cc7d9b5537f5b86f74a22d7ed02a8c88c755997e"
+    },
+    {
+      "bytes": 1486,
+      "path": "src/tearfilm_persistence/evaluation/multiplicity.py",
+      "sha256": "81d63746f4ca0ca94191145fc1e25fac4189561ead75cbf9cd0b59a628d6a4a4"
+    },
+    {
+      "bytes": 4068,
+      "path": "src/tearfilm_persistence/evaluation/properties.py",
+      "sha256": "4f0cb3543e11dc24204f82d0aa8ee060f42dc9192dae35e9aa08c9cdba922f14"
+    },
+    {
+      "bytes": 6027,
+      "path": "src/tearfilm_persistence/evaluation/reader_study.py",
+      "sha256": "69c4e8a7821f3b9a6c535e9e12a0aa6d1a6ce7a5fb52544d07d393e7431ff1dd"
+    },
+    {
+      "bytes": 445,
+      "path": "src/tearfilm_persistence/models/__init__.py",
+      "sha256": "33cddc12c428b87f8c94a82c1ad7ad1dd547daac7adaab802845c53d051f9097"
+    },
+    {
+      "bytes": 2162,
+      "path": "src/tearfilm_persistence/models/gate.py",
+      "sha256": "5c970344c6364225912e00473bedcc6d98b66c47601bec46f7dbf985bdd610b2"
+    },
+    {
+      "bytes": 2667,
+      "path": "src/tearfilm_persistence/models/head.py",
+      "sha256": "7843ad9ed416836a9f9b425704c7de6ad7120feb6585e59b15bbada7b2b8fd94"
+    },
+    {
+      "bytes": 14451,
+      "path": "src/tearfilm_persistence/models/teardyn.py",
+      "sha256": "e18230319040c797e17634d3ec9e98537cfe85d03e12ce87b888afe81fcbb693"
+    },
+    {
+      "bytes": 371,
+      "path": "src/tearfilm_persistence/objectives/__init__.py",
+      "sha256": "1e631dfcdb9418b7ce1727a09920c98eaf6c066a1c8b046a74210f7e7f53e9d9"
+    },
+    {
+      "bytes": 4822,
+      "path": "src/tearfilm_persistence/objectives/composite.py",
+      "sha256": "d9cc1c2d21b597a2f7de37cac870630bf29789b294ab6ef85bfe906ec36ac352"
+    },
+    {
+      "bytes": 1034,
+      "path": "src/tearfilm_persistence/runtime/__init__.py",
+      "sha256": "8db7818bc4409b5b6d29a48e7dcbeeb042ce2c3d51a23a7afad22215dcf409f6"
+    },
+    {
+      "bytes": 3099,
+      "path": "src/tearfilm_persistence/runtime/checkpoint.py",
+      "sha256": "48c2ad23ac73a6c90acb0c187c343994070e6d136367a9d92fd20293c718a031"
+    },
+    {
+      "bytes": 2397,
+      "path": "src/tearfilm_persistence/runtime/config.py",
+      "sha256": "0b9d47c3f8e1c1c8991a674e66ddd2d40e1bb5eb8ec4f7141ed4f6a18d0bb488"
+    },
+    {
+      "bytes": 4086,
+      "path": "src/tearfilm_persistence/runtime/factory.py",
+      "sha256": "11e962dcf1339d21a80ef6a23efb6c4c75f1f396658501cb56b655260cf30036"
+    },
+    {
+      "bytes": 8925,
+      "path": "src/tearfilm_persistence/runtime/loop.py",
+      "sha256": "5e089e2e47cd9a8177d94c4486d5396a1005b6f35df46ac44de481d1a83dbefd"
+    },
+    {
+      "bytes": 931,
+      "path": "src/tearfilm_persistence/runtime/seeding.py",
+      "sha256": "663b454570cd3eae449621503345677ca44903dcbab16ad542b6bbca79fdb4a8"
+    },
+    {
+      "bytes": 566,
+      "path": "src/tearfilm_persistence/streams/__init__.py",
+      "sha256": "c0d06c4cdd135d736cc40c44ec253c3e0a45b334fc485dae7f351aa408962aea"
+    },
+    {
+      "bytes": 8510,
+      "path": "src/tearfilm_persistence/streams/acquisition.py",
+      "sha256": "9f8d32f5f218012f5f86edb93a2e14d25a302ccbff509d777c6e44f9b1c58bc4"
+    },
+    {
+      "bytes": 3222,
+      "path": "src/tearfilm_persistence/streams/adequacy.py",
+      "sha256": "6dc32316a6a9e7befd9ad99e48898fe9a84b3dfe1ec751493f6e9119d107b256"
+    },
+    {
+      "bytes": 4838,
+      "path": "src/tearfilm_persistence/streams/blinks.py",
+      "sha256": "752c7d33c8620784efbc1a196ada8ac083f31eb3dd2506e010e2d6f5d13bc27e"
+    },
+    {
+      "bytes": 3637,
+      "path": "src/tearfilm_persistence/streams/masking.py",
+      "sha256": "688beed4fa8e09263ba93d1210c1cc19cbe68de5ab13b717802ec3ffb017d236"
+    },
+    {
+      "bytes": 383,
+      "path": "src/tearfilm_persistence/structure/__init__.py",
+      "sha256": "4f86768b5856573c233314c97f2aede84b40791827b3a008f40ca31ee463e3fc"
+    },
+    {
+      "bytes": 4790,
+      "path": "src/tearfilm_persistence/structure/meniscus.py",
+      "sha256": "a55822342cd78109342c6227ffb6afe2c32591a6c4c50f5629394e138afba041"
+    },
+    {
+      "bytes": 1198,
+      "path": "src/tearfilm_persistence/verification/__init__.py",
+      "sha256": "c042e551e3f9590d6cb5b5f100d63f3ef515c8d6dcb2d3d6cb2131af894ab32c"
+    },
+    {
+      "bytes": 23397,
+      "path": "src/tearfilm_persistence/verification/claims.py",
+      "sha256": "64a137e7c74d7f65276cf2d40ae40e1ca2a926930669f5197847005c74bfb1bc"
+    },
+    {
+      "bytes": 6488,
+      "path": "src/tearfilm_persistence/verification/conformance.py",
+      "sha256": "42bfc4e46619fb043b4b9b287905762c5aaa5eda600527f6d0e6cab178a3c625"
+    },
+    {
+      "bytes": 35768,
+      "path": "src/tearfilm_persistence/verification/execution.py",
+      "sha256": "304f7377c90218e0f8fecc5de452deabe6d396cc6328ed230b7485ccceee13c4"
+    },
+    {
+      "bytes": 9001,
+      "path": "src/tearfilm_persistence/verification/hygiene.py",
+      "sha256": "9c7ce07e83710fb6d9cf7a1694932ce5f0587636f24b6ab55ce7fd363915c18e"
+    },
+    {
+      "bytes": 21612,
+      "path": "src/tearfilm_persistence/verification/manuscript.py",
+      "sha256": "bdf3b5e5e535efa8df230200d1866bc6539f749a17e8ac10251a68a291632864"
+    },
+    {
+      "bytes": 4023,
+      "path": "src/tearfilm_persistence/verification/probe_inputs.py",
+      "sha256": "04c85833503f9e0a201a8b773d071b6c31bdc8db1c32acb0744c5f7890d2445a"
+    },
+    {
+      "bytes": 22020,
+      "path": "src/tearfilm_persistence/verification/report.py",
+      "sha256": "bd27e5614d3e61e431631cf9fd8c97402c83bfedab6b175b69fd5f2a0b0112e6"
+    },
+    {
+      "bytes": 669,
+      "path": "tests/conftest.py",
+      "sha256": "0a7d884610874dc013dd9629ac9668ac951b84db13a67b4c9ccb8c039b1565ee"
+    },
+    {
+      "bytes": 2958,
+      "path": "tests/test_acquisition.py",
+      "sha256": "874d814a12dc86ef7f0e0f23dd0a7d69545b65a3f822fcadb52cdc3f9eee0283"
+    },
+    {
+      "bytes": 2368,
+      "path": "tests/test_adequacy.py",
+      "sha256": "3992ffa3ce57a03f307924a6b31b2b7edddae4dc2c7acb772c5d8a7bc25b51a5"
+    },
+    {
+      "bytes": 1598,
+      "path": "tests/test_blinks.py",
+      "sha256": "f6edbe4bb49b2d4778427847b80ff26598b7cd4f4c2ca403057ed0ef055a4604"
+    },
+    {
+      "bytes": 5307,
+      "path": "tests/test_cohort.py",
+      "sha256": "4552e2c959193a6444747eb91a2e9e0b1b330a9f537a8c8baaad3af5a2bac6cc"
+    },
+    {
+      "bytes": 8125,
+      "path": "tests/test_descriptors.py",
+      "sha256": "312664d2e9b97b377fe91cb045ba2003aeca5715bd51feffd876bf232a68f2d8"
+    },
+    {
+      "bytes": 9227,
+      "path": "tests/test_metrics.py",
+      "sha256": "ca052241291a947911e170f31d342a4837460aff7337b7d479011b59078508cc"
+    },
+    {
+      "bytes": 7598,
+      "path": "tests/test_model.py",
+      "sha256": "0113a881f04aa5745ef6cbc0827ce7c0e43c7ed5ce300789ad89ce7e4c1c09dd"
+    },
+    {
+      "bytes": 5918,
+      "path": "tests/test_persistence.py",
+      "sha256": "80e1dc6f05b7ecc3217636fc6bfaa86ddea7a6385e279632590ffea629c54fbb"
+    },
+    {
+      "bytes": 5839,
+      "path": "tests/test_runtime.py",
+      "sha256": "c18456121eaeb8257d9d7abe77b30ebca1988f903d66324ec6013c714939ff80"
+    },
+    {
+      "bytes": 1778,
+      "path": "tests/test_structure.py",
+      "sha256": "7d8b5f5b28acaa4be2d3d318f3491d4b595f8aebb8e7939bf5783ae82c3bd65c"
+    },
+    {
+      "bytes": 6975,
+      "path": "tests/test_training.py",
+      "sha256": "dd28647d1e9648a4d69b13a0352823ea37aeb01cce250705bcff2865ae9f7902"
+    },
+    {
+      "bytes": 3143,
+      "path": "tests/test_verification.py",
+      "sha256": "973a230d79847f73f613771e3e5df77706d6aaa367d3c84bbca25b0d3445a115"
+    },
+    {
+      "bytes": 83087,
+      "path": "verification_report.json",
+      "sha256": "f1bb482c9e2c15bc9c805f54250055d064a0a9b0606c4357f82c735ec5262f70"
+    },
+    {
+      "bytes": 1635,
+      "path": "verification_summary.txt",
+      "sha256": "c8c591649e22a363721c14434afaf9333ff53bf40a08fc2a0dc8f7c72d819fc9"
+    }
+  ],
+  "excludes": [
+    "integrity_manifest.json"
+  ],
+  "file_count": 124,
+  "manifest_digest": "60798583401ab8a314399b6ca71d443f8618fc57eaa6433196d2a920a54bdaf6"
+}

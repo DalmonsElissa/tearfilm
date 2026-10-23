@@ -1,0 +1,5 @@
+name: supplementary_prospective
+extends:
+  - main.yaml
+aim: the completed prospective arm, scored under the locked model
+notes: the split is read from the table as prospective; nothing is refitted

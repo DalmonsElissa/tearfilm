@@ -1,0 +1,8 @@
+name: main
+extends:
+  - ../acquisition/meniscus_band.yaml
+  - ../model/twoscale.yaml
+  - ../optimisation/adamw_cosine.yaml
+  - ../analysis/statistics.yaml
+aim: the constrained configuration of the detection table and the component table
+notes: every morphological component is active

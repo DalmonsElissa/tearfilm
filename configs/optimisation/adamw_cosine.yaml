@@ -1,0 +1,18 @@
+# Optimisation. The article prints no schedule, so every value here is a
+# released default and is listed under engineering_defaults in the reports.
+optimisation:
+  epochs: 40
+  batch_size: 8
+  grad_accumulation: 1
+  learning_rate: 3.0e-4
+  weight_decay: 0.01
+  warmup_steps: 500
+  grad_clip: 1.0
+  precision: bf16
+  specificity_floor: 0.90
+  weights:
+    decision: 1.0
+    onset: 1.0
+    repeatability: 0.1
+    positive_weight: 1.0
+    onset_beta: 0.5

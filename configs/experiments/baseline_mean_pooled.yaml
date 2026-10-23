@@ -1,0 +1,16 @@
+name: baseline_mean_pooled
+extends:
+  - ../acquisition/meniscus_band.yaml
+  - ../optimisation/adamw_cosine.yaml
+  - ../analysis/statistics.yaml
+aim: comparison row mean_pooled, trained under the shared protocol
+model:
+  use_repeatability: false
+  comparator: mean_pooled
+optimisation:
+  weights:
+    decision: 1.0
+    onset: 1.0
+    repeatability: 0.0
+    positive_weight: 1.0
+    onset_beta: 0.5

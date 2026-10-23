@@ -1,0 +1,6 @@
+name: ablation_minus_adequacy_gate
+extends:
+  - main.yaml
+aim: component C5 removed; inadequate acquisitions are scored instead of abstained
+model:
+  use_gate: false

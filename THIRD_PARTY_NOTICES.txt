@@ -1,0 +1,31 @@
+Third-party material referenced by this release
+
+Multicentre pixel-level tear-meniscus segmentation dataset
+  Chen X, Wang K, Xu K, Xiao C, Wang Y, Huang S, Yang W, Dai Q.
+  "Multicentre Pixel-Level Tear Meniscus Segmentation Dataset with Multimodal
+  Imaging for Dry Eye Diagnosis." Scientific Data 13, 143 (2025).
+  DOI 10.1038/s41597-025-06460-0. Dataset deposited under CC BY 4.0 at
+  DOI 10.6084/m9.figshare.28650536.v2. The dataset is not redistributed here;
+  the licence and attribution travel with any copy obtained from the deposit.
+
+TORCH, NumPy, SciPy, PyYAML
+  Used under their own licences (BSD-3-Clause for PyTorch, BSD-3-Clause for
+  NumPy, BSD-3-Clause for SciPy, MIT for PyYAML). No source from these projects
+  is vendored into this repository.
+
+Cited designs implemented from their publications
+  The divided space-time attention block follows Bertasius, Wang and Torresani,
+  "Is Space-Time Attention All You Need for Video Understanding?", ICML 2021.
+  The factorised (2+1)D convolution follows Tran et al., "A Closer Look at
+  Spatiotemporal Convolutions for Action Recognition", CVPR 2018.
+  The frame-pair dual-task design follows El Barche et al., Scientific Reports
+  14 (2024).
+  The reader-study variance follows the Obuchowski-Rockette decomposition as
+  summarised by Obuchowski et al., Academic Radiology 11, 980-995 (2004).
+  These are implemented from their published descriptions; no third-party code
+  is copied.
+
+Manuscript arithmetic
+  The values transcribed in tearfilm_persistence.verification.manuscript are
+  read from the article's own tables and are used only to test the internal
+  consistency of those tables. They are not measurements of this release.

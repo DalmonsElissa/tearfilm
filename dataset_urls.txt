@@ -1,0 +1,22 @@
+Multicentre pixel-level tear-meniscus segmentation dataset
+  role        auxiliary representation pretraining and structural-branch initialisation
+  version     Figshare v2 (deposited 2025, version 2 of the record)
+  contents    1,693 colour and 1,739 infrared ocular-surface images with pixel-level meniscus masks
+  licence     CC BY 4.0
+  landing     https://doi.org/10.6084/m9.figshare.28650536.v2
+  api         https://api.figshare.com/v2/articles/28650536
+  article     https://www.nature.com/articles/s41597-025-06460-0
+  probe       2026-10-19: DOI resolution 202, Figshare API 200 with a single 4.57 GB archive, article page 200
+  size        4.57 GB in one archive
+
+Private de-identified clinical cohorts
+  role        model building, held-out evaluation, external validation, prospective arm, reader study
+  access      not distributed, not reconstructible, and not re-hosted here
+  note        the four retrospective sites, the external cohort and the prospective arm are private
+              anonymised collections held by the participating institutions; no endpoint, checksum or
+              derived descriptor for them is published in this release
+
+Third-party pretrained clip checkpoint
+  role        the temporal-difference fast branch described in Sec. 5.4
+  access      not distributed with this release and not obtainable from the deposit
+  note        the branch trains jointly with the adapter when no checkpoint is supplied

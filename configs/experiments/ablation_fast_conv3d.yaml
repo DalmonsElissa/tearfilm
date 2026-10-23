@@ -1,0 +1,6 @@
+name: ablation_fast_conv3d
+extends:
+  - main.yaml
+aim: the fast branch replaced by a plain 3D convolutional trunk
+model:
+  fast_branch: conv3d

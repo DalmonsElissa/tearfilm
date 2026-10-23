@@ -1,0 +1,6 @@
+name: ablation_persistence_mean_pool
+extends:
+  - main.yaml
+aim: the persistence branch replaced by mean pooling of the occupancy
+model:
+  persistence_substitution: mean_pool

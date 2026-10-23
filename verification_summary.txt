@@ -1,0 +1,26 @@
+overall            PARTIALLY_VERIFIED
+code               PASS
+  claims failed    0 of 80
+  claims blocked   25
+execution          PASS
+  checks failed    0 of 54
+manuscript         FAIL
+  findings         5 of 57
+conformance        PASS
+  checks failed    0 of 13
+hygiene            PASS
+  errors           0
+
+manuscript discrepancies
+  M18  Sec. 2.3, p. 5 against Table 2, p. 6
+      The prose of Sec. 2.3 assigns 0.947 to the constrained configuration and 0.944 to the unconstrained attention baseline. Table 2, Table 3, Table 5, Table 6 and the abstract print 0.944 for the model and 0.947 for the baseline. The prose's own margins (0.062 over the frame-pair row and 0.132 over the frame classifier) are computed from 0.944, so 0.944 is the operative value and the two prose sentences are transposed.
+  M48  Sec. 2.1, p. 3 against Table 5, p. 10
+      two printed values disagree: 97.3 against 97.5. Sec. 2.1 prints 97.3% for the retrospective acquisition-adequacy rate; Sec. 2.7, Table 5 and Sec. 5.1 all use 97.5% for the same criterion.
+  M49  Sec. 5.1, p. 21
+      computed 99.6000 against printed 100.0000
+  M50  Sec. 2.8, p. 13 against Table 7, p. 16
+      two printed values disagree: 6.0 against 3.8. The prose of case 1 reports a reference break-up time of 6 s and then states the comparison value as 3.8 s; Table 7 prints 3.8 s.
+  M51  Sec. 2.8, p. 14 against Table 7, p. 16
+      two printed values disagree: 0.48 against 0.38. The prose of case 5 reports a sign-consistent derivative of 0.48; Table 7 prints a peak affected fraction of 0.38.
+
+blocked record-level claims carry their staging reason in claim_to_code.json

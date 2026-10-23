@@ -1,0 +1,6 @@
+name: ablation_minus_structural
+extends:
+  - main.yaml
+aim: component C3 removed
+model:
+  use_structural: false

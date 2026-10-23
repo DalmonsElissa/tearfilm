@@ -1,0 +1,5 @@
+name: supplementary_silent_mode
+extends:
+  - main.yaml
+aim: the silent-mode deployment pass on the prospective arm
+notes: the descriptor is recorded without being surfaced to the reading clinician

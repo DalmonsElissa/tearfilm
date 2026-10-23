@@ -1,0 +1,26 @@
+# Robotic anterior-segment acquisition. The band is the lower tear meniscus,
+# resolved into a locus grid inside the printed 25 to 100 element range.
+acquisition:
+  area:
+    rows: 8
+    cols: 8
+    x_span: [0.10, 0.90]
+    y_span: [0.55, 0.95]
+    shape: ellipse
+  adequacy:
+    # 60 and 30 frames per second are indistinguishable in the tear-film video
+    # literature; below the floor the acquisition is invalid rather than noisy.
+    sampling_floor_hz: 30.0
+    max_fixation_drift: 0.055
+    min_valid_fraction: 0.90
+  blink:
+    contrast_drop: 0.60
+    motion_ratio: 5.0
+    min_duration: 0.05
+    max_duration: 0.80
+    band: [0.35, 0.95]
+  geometry:
+    # axial resolution as printed; the lateral pitch is not printed and is set
+    # equal to it so that the meniscus area is expressed in millimetres.
+    axial_um: 15.0
+    lateral_um: 15.0

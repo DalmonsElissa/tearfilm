@@ -1,0 +1,7 @@
+name: supplementary_matched_budget
+extends:
+  - main.yaml
+aim: the attention baseline retrained under the constrained compute budget
+model:
+  comparator: video_transformer
+notes: the budget is the declared 78 GFLOPs per clip, not the baseline's own ceiling

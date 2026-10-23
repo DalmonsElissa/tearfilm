@@ -1,0 +1,16 @@
+name: baseline_video_transformer
+extends:
+  - ../acquisition/meniscus_band.yaml
+  - ../optimisation/adamw_cosine.yaml
+  - ../analysis/statistics.yaml
+aim: comparison row video_transformer, trained under the shared protocol
+model:
+  use_repeatability: false
+  comparator: video_transformer
+optimisation:
+  weights:
+    decision: 1.0
+    onset: 1.0
+    repeatability: 0.0
+    positive_weight: 1.0
+    onset_beta: 0.5

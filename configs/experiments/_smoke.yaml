@@ -1,0 +1,32 @@
+# for unit-test smoke only; do not use for reporting
+name: _smoke
+extends:
+  - ../model/twoscale.yaml
+  - ../acquisition/meniscus_band.yaml
+aim: two optimisation steps on a tiny batch
+acquisition:
+  area:
+    rows: 5
+    cols: 5
+model:
+  adapter:
+    in_channels: 64
+    hidden_channels: 64
+    window: 5
+    residual_scale: 0.5
+optimisation:
+  epochs: 1
+  batch_size: 2
+  grad_accumulation: 1
+  learning_rate: 1.0e-3
+  weight_decay: 0.0
+  warmup_steps: 1
+  grad_clip: 1.0
+  precision: fp32
+  specificity_floor: 0.50
+  weights:
+    decision: 1.0
+    onset: 1.0
+    repeatability: 0.1
+    positive_weight: 1.0
+    onset_beta: 0.5

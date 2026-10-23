@@ -1,0 +1,5 @@
+name: supplementary_reader_study
+extends:
+  - main.yaml
+aim: the three-arm reader study on the held-out split
+notes: reading times and ratings come from the caller; the arms are fully crossed

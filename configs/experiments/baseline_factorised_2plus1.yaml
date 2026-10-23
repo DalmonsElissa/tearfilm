@@ -1,0 +1,16 @@
+name: baseline_factorised_2plus1
+extends:
+  - ../acquisition/meniscus_band.yaml
+  - ../optimisation/adamw_cosine.yaml
+  - ../analysis/statistics.yaml
+aim: comparison row factorised_2plus1, trained under the shared protocol
+model:
+  use_repeatability: false
+  comparator: factorised_2plus1
+optimisation:
+  weights:
+    decision: 1.0
+    onset: 1.0
+    repeatability: 0.0
+    positive_weight: 1.0
+    onset_beta: 0.5

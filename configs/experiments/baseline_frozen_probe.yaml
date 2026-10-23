@@ -1,0 +1,17 @@
+name: baseline_frozen_probe
+extends:
+  - ../acquisition/meniscus_band.yaml
+  - ../optimisation/adamw_cosine.yaml
+  - ../analysis/statistics.yaml
+aim: comparison row frozen_probe, trained under the shared protocol
+model:
+  use_repeatability: false
+  comparator: frozen_probe
+optimisation:
+  weights:
+    decision: 1.0
+    onset: 1.0
+    repeatability: 0.0
+    positive_weight: 1.0
+    onset_beta: 0.5
+notes: the probe needs a pretrained trunk; without one this row cannot be reproduced

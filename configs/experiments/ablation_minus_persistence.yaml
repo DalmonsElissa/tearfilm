@@ -1,0 +1,6 @@
+name: ablation_minus_persistence
+extends:
+  - main.yaml
+aim: component C2 removed, the persistence requirement collapses to an amplitude test
+model:
+  use_persistence: false

@@ -1,0 +1,28 @@
+# Two-timescale model. The persistence window is the printed 0.17 s; the
+# affected-area fraction is not printed and sits below the smallest peak the
+# case table reports (0.36), because a declaration cannot follow its own peak.
+model:
+  fast_branch: td
+  adapter:
+    in_channels: 64
+    hidden_channels: 64
+    window: 5
+    residual_scale: 0.5
+  derivative:
+    window: 5
+  persistence:
+    tau_seconds: 0.17
+    area_fraction: 0.10
+    gamma: 20.0
+    mode: hard
+  head:
+    n_components: 6
+    hidden: 64
+    dropout: 0.0
+  use_fast: true
+  use_persistence: true
+  use_structural: true
+  use_repeatability: true
+  use_gate: true
+  persistence_substitution: none
+  freeze_trunk: false

@@ -1,0 +1,6 @@
+name: ablation_minus_fast
+extends:
+  - main.yaml
+aim: component C1 removed
+model:
+  use_fast: false

@@ -1,0 +1,13 @@
+name: ablation_minus_repeatability_head
+extends:
+  - main.yaml
+aim: component C4 removed; calibration and the repeatability penalty are both withheld
+model:
+  use_repeatability: false
+optimisation:
+  weights:
+    decision: 1.0
+    onset: 1.0
+    repeatability: 0.0
+    positive_weight: 1.0
+    onset_beta: 0.5
