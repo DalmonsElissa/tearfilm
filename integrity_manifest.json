@@ -22,9 +22,9 @@
       "sha256": "6b44abc8f9ab30cc8a0e166ef6c912f9d3f91ce9b67eb9f0c8df49abc710fff7"
     },
     {
-      "bytes": 11852,
+      "bytes": 11851,
       "path": "README.md",
-      "sha256": "02d3367e01ce0dc908848e5675a8446503ddbf4b26df92a70f2b87c4f072b601"
+      "sha256": "08df7f0c8134930d9fac04eb027dcacccd06f55fa3a2c28af39f71a03764685b"
     },
     {
       "bytes": 1699,
@@ -626,5 +626,5 @@
     "integrity_manifest.json"
   ],
   "file_count": 124,
-  "manifest_digest": "60798583401ab8a314399b6ca71d443f8618fc57eaa6433196d2a920a54bdaf6"
+  "manifest_digest": "c7beb44a86ad989836c025d3ec76b56e3ba6dde40ce7ddb923102ecaf5b6eb11"
 }
